@@ -1,29 +1,59 @@
 .App {
   text-align: center;
-  margin-top: 40px;
+  width: auto;
+  height: auto;
 }
 
-h1 {
-  color: #333;
+.watch_container {
+  border-style: solid;
+  border-color: rgb(84, 189, 255);
+  border-radius: 27px;
+  border-top-width: 75px;
+  border-bottom-width: 30px;
+  border-left-width: 5px;
+  border-right-width: 5px;
 }
 
-button {
-  font-size: 16px;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+.head {
+  font-weight: 600;
+  font-size: 76px;
+  letter-spacing: 3px;
+}
+
+.timefont {
+  font-size: 65px;
+  font-weight: 375;
+  letter-spacing: 3px;
+  margin-top: -3%;
+}
+.button_con {
+  display:flex;
+  justify-content:center;
+  gap:10px;
+}
+
+.btn {
+  font-size: medium;
+  margin: 13px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: inset;
+  box-sizing: border-box;
+  border-radius: 0;
+  margin-top: 3%;
   cursor: pointer;
 }
-
-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
-
-#time {
-  font-size: 24px;
-  margin-bottom: 20px;
+.btn_res{
+  font-size: medium;
+  margin: 13px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: inset;
+  box-sizing: border-box;
+  border-radius: 0;
+  margin-top: 3%;
 }
